@@ -10,28 +10,22 @@
   <body>
     <main class="contents">
 <!-- header contents put here -->
-      <header>
-        <section class="header-contents">
-          <div class="logo-image">
-            <img class="svg" src="SVG/headphones.svg" alt="headphone logo">
-          </div>
-          <div class="header-text">
-            <h1 class="main-text">my favorite albums</h1>
-            <h2 class="sub-text">front-end project</h2>
-          </div>
-        </section>
+      <header class="header-contents">
+        <div class="logo-image">
+          <img class="svg" src="SVG/headphones.svg" alt="headphone logo">
+        </div>
+        <div class="header-text">
+          <h1 class="main-text">my favorite albums</h1>
+          <h2 class="sub-text">front-end project</h2>
+        </div>
       </header>
 <!-- hero img and text put here       -->
-      <section class="hero-section">
-        <div class="hero_image">
-          <picture>
-            <!-- <source srcset="https://" size="video/">
-            <source srcset="https://" size="video/">
-            <source srcset="https://" size="video/"> -->
-            <img src="image/Beatles.jpg" alt="">
-          </picture>
-        </div>
-      </section>
+      <div class="hero_image">
+        <picture>
+          <source srcset="image/beatles.jpg" media="(min-width: 850px)">
+          <img src="image/resized_900_beatles.jpg" alt="">
+        </picture>
+      </div>
 <!-- sub posts put here -->
       <section class="sub-posts">
         <div class="sub-post-title">
@@ -42,15 +36,15 @@
           <article class="post album-1">
             <div class="sub-post-img album-1-img">
               <picture>
-                <!-- <source srcset="https://" size="video/">
-                <source srcset="https://" size="video/">
-                <source srcset="https://" size="video/"> -->
-                <img src="image/Beatles.jpg" alt="">
+                <source srcset="image/edm.jpg" media="(min-width: 530px)">
+                <img src="image/Crop_edm.jpg" alt="">
               </picture>
             </div>
             <div  class="sub-post-text album-1-text">
-              <h3>Mark Easton</h3>
-              <a href="#">https://www.naver.com</a>
+              <h3>Porter Robinson</h3>
+              <a href="http://porterrobinson.com/">
+                <p>http://porterrobinson.com/</p>
+              </a>
             </div>
           </article>
         </div>
@@ -59,30 +53,30 @@
           <article class="post album-2">
             <div class="sub-post-img album-2-img">
               <picture>
-                <!-- <source srcset="https://" size="video/">
-                <source srcset="https://" size="video/">
-                <source srcset="https://" size="video/"> -->
-                <img src="image/Beatles.jpg" alt="">
+                <source srcset="image/Miles.jpg" media="(min-width: 850px)">
+                <img src="image/Crop_Miles.jpg" alt="">
               </picture>
             </div>
             <div  class="sub-post-text album-2-text">
-              <h3>Mark Easton</h3>
-              <a href="#">https://www.naver.com</a>
+              <h3>Miles Davis</h3>
+              <a href="https://www.milesdavis.com/">
+                <p>https://www.milesdavis.com/</p>
+              </a>
             </div>
           </article>
 <!-- 3rd sub post put here -->
           <article class="post album-3">
             <div class="sub-post-img album-3-img">
               <picture>
-                <!-- <source srcset="https://" size="video/">
-                <source srcset="https://" size="video/">
-                <source srcset="https://" size="video/"> -->
-                <img src="image/Beatles.jpg" alt="">
+                <source srcset="image/Billboard.jpg" media="(min-width: 850px)">
+                <img src="image/Crop_billboard.jpg" alt="">
               </picture>
             </div>
             <div  class="sub-post-text album-3-text">
               <h3>Mark Easton</h3>
-              <a href="#">https://www.naver.com</a>
+              <a href="https://www.reverbnation.com/markeaston">
+                <p>https://www.reverbnation.com/markeaston</p>
+              </a>
             </div>
           </article>
         </div>
